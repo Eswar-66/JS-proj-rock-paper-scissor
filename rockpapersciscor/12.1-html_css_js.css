@@ -1,0 +1,95 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: Raleway,Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.title_para{
+
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.img_icon{
+
+  height: 80px;
+  width: 80px; 
+
+}
+
+
+.rock-button,.Paper-button,.Scissors-button{
+
+  background-color: transparent;
+  border-radius: 50%;
+  border:3px solid white;
+  width: 120px;
+  height: 120px;
+  margin-right: 10px;
+  cursor: pointer;
+
+  /* border: border-width border-style border-colore */
+}
+
+.rock-button:active,.Paper-button:active,.Scissors-button:active{
+
+  background-color: white;
+  filter: drop-shadow(1px 1px 10px rgb(196, 17, 17));
+}
+
+.js-result{
+
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Poppins",Arial, Helvetica, sans-serif;
+  line-height: 10px;
+  color: rgb(8, 247, 243);
+  margin-left: 140px;
+  
+}
+.js-move{
+
+
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+
+.img_icon1{
+
+  height: 50px;
+  width: 50px; 
+
+}
+
+.reset-button,.auto-play{
+
+  padding: 10px 15px;
+  border: none;
+  background-color: rgb(217, 220, 222);
+  border-radius: 20px;
+  cursor: pointer;
+  transform: background-color 0.15s;
+  margin-right: 14px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Poppins",Arial, Helvetica, sans-serif;
+  background: linear-gradient(to left,rgb(254, 225, 184), rgb(243, 133, 133),rgb(236, 142, 228),rgb(132, 132, 231));
+
+}
+
+.reset-button:hover,.auto-play:hover{
+
+  background-color: rgb(161, 204, 241);
+  filter: drop-shadow(1px 1px 10px yellow);
+  color: aliceblue;
+}
+
+.reset-button:active, .auto-play:active{
+  background-color:aliceblue;
+  color: black;
+
+  
+  
+}
